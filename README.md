@@ -11,8 +11,9 @@ Kullanıcıların Türkçe ifadelerle (örn: "Yılan oyunu yap"), Python kodu ü
    ```bash
    pip install -r requirements.txt
 
-2.API Anahtarınızı app.py dosyasına girin.
+2. API Anahtarınızı app.py dosyasına girin.
 
 3. Çalıştırın:
 python -m streamlit run app.py
+
 
