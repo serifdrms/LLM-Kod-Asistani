@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-API_KEY = "AIzaSyAqgqxgeJA5gOGkgcaHmkpMNZ5K5-U9CzE" 
+API_KEY = "BURAYA_KENDI_API_ANAHTARINIZI_YAPISTIRIN"
 
 # Model Yapılandırması
 genai.configure(api_key=API_KEY)
@@ -86,4 +86,5 @@ elif secim == "Kod Açıkla":
 
 # Alt Bilgi
 st.markdown("---")
+
 st.markdown("*Geliştirici: 212523203-Ömer Şerif DURMUŞ | Mühendislikte Bilgisayar Uygulamaları Dersi İçin Geliştirilmiştir.*")
